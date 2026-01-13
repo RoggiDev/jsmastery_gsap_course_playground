@@ -2,20 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Challenge 01</title>
+
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <main>
       <header class="nav">
         <a href="/">
           <img src=" /logo.svg" alt="logo" />
         </a>
-        <a href="https://jsmastery.com/all-courses" target="_blank"
-          >GSAP Course</a
+
+        <a
+          href="https://jsmastery.com/all-courses"
+          target="_blank"
+          rel="noopener"
         >
+          GSAP Course
+        </a>
       </header>
 
       <div class="content">
@@ -27,11 +36,14 @@
 
         <section>
           <h1>Challenge 01</h1>
+
           <p>
             You made a card fade in, scale up, and float smoothly. That’s
             already more fun. But let’s add some magic to it.
           </p>
+
           <p></p>
+
           <p>
             Challenge yourself to create a pulsing glow animation using GSAP.
             Yes, make the cube glow. Make it softly pulse with light. Nothing
@@ -42,7 +54,17 @@
 
       <div class="demo">
         <section class="flex-center">
-          <div class="card" />
+          <div class="card">
+            <p class="title"></p>
+
+            <p class="description" />
+          </div>
+
+          <div class="circle"></div>
+
+          <div id="square"></div>
+
+          <div class="triangle"></div>
         </section>
       </div>
     </main>
