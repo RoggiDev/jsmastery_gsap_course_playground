@@ -1,19 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Learn Gsap Timeline</title>
+
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <main>
       <header class="nav">
         <a href="/">
           <img src=" /logo.svg" alt="logo" />
         </a>
-        <a href="https://jsmastery.com/all-courses" target="_blank"
+        <a
+          href="https://jsmastery.com/all-courses"
+          target="_blank"
+          rel="noopener"
           >GSAP Course</a
         >
       </header>
@@ -61,6 +67,7 @@
             <a
               href="https://gsap.com/resources/getting-started/timelines"
               target="_blank"
+              rel="noopener"
               >Gsap Timeline</a
             >
             method.
@@ -95,25 +102,22 @@
               </div>
             </div>
           </div>
-
-          <div class="detail-page" id="detailPage">
-            <button class="close-btn" id="closeBtn">×</button>
-            <img
-              src=""
-              alt="Detail Image"
-              class="detail-image"
-              id="detailImage"
-            />
-            <div class="detail-content" id="detailContent">
-              <h2 id="detailTitle">Detail Page</h2>
-              <p id="detailDescription">
-                This is the full-page view of the travel destination. Discover
-                breathtaking views, unforgettable experiences, and a trip of a
-                lifetime. Customize the description to match your offer.
-              </p>
-            </div>
-          </div>
         </section>
+      </div>
+
+      <div class="detail-page" id="detailPage">
+        <button type="button" class="close-btn" id="closeBtn">×</button>
+
+        <img src="" alt="Detail Image" class="detail-image" id="detailImage" />
+
+        <div class="detail-content" id="detailContent">
+          <h2 id="detailTitle">Detail Page</h2>
+          <p id="detailDescription">
+            This is the full-page view of the travel destination. Discover
+            breathtaking views, unforgettable experiences, and a trip of a
+            lifetime. Customize the description to match your offer.
+          </p>
+        </div>
       </div>
 
       <script type="module" src="script.js"></script>

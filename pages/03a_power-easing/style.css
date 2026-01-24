@@ -18,12 +18,8 @@
   color: white;
   background-color: red;
   border-radius: 15px;
-  transition: transform 1s ease;
+  transition: none;
   cursor: pointer;
-}
-
-.btn-primary:hover {
-  transform: scale(1.1);
 }
 
 .toast {
